@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0e1a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Fichaje">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<title>Fichaje</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main id="main"><p style="color:#8b9bb4">Cargando…</p></main>
+<input id="file" type="file" accept=".json,application/json" hidden>
+<div id="undo"></div>
+<div id="overlay"></div>
+<div id="toast" class="toast" role="alert" hidden></div>
+<script src="version.js"></script>
+<script src="fichaje-core.js"></script>
+<script src="store.js"></script>
+<script src="logic.js"></script>
+<script src="files.js"></script>
+<script src="view.js"></script>
+<script src="install.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
